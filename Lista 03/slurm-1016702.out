@@ -1,0 +1,7 @@
+sdumont1243
+sdumont1243
+icc: error #10236: File not found:  'trapezio_mpi.cpp'
+/tmp/slurmd/job1016702/slurm_script: line 24: 03/trapezio_mpi: Arquivo ou diretório não encontrado
+ldd: missing file arguments
+Try `ldd --help' for more information.
+srun: fatal: No command given to execute.
