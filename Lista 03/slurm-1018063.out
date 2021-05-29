@@ -1,0 +1,16 @@
+sdumont[1243-1244]
+sdumont1243 sdumont1244
+	linux-vdso.so.1 =>  (0x00007fff939da000)
+	libmpifort.so.12 => /opt/intel/parallel_studio_xe_2020/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpifort.so.12 (0x00002b8880d3a000)
+	libmpi.so.12 => /opt/intel/parallel_studio_xe_2020/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/release/libmpi.so.12 (0x00002b88810f9000)
+	libdl.so.2 => /usr/lib64/libdl.so.2 (0x00002b8882315000)
+	librt.so.1 => /usr/lib64/librt.so.1 (0x00002b8882519000)
+	libpthread.so.0 => /usr/lib64/libpthread.so.0 (0x00002b8882721000)
+	libstdc++.so.6 => /usr/lib64/libstdc++.so.6 (0x00002b888293d000)
+	libm.so.6 => /usr/lib64/libm.so.6 (0x00002b8882c44000)
+	libgcc_s.so.1 => /usr/lib64/libgcc_s.so.1 (0x00002b8882f46000)
+	libc.so.6 => /usr/lib64/libc.so.6 (0x00002b888315c000)
+	libfabric.so.1 => /opt/intel/parallel_studio_xe_2020/compilers_and_libraries_2020.2.254/linux/mpi/intel64/libfabric/lib/libfabric.so.1 (0x00002b8883529000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002b8880b16000)
+With n = 2048000000 trapezoids, our estimate of the integral from 0.000000 to 5.000000 = 41.666665
+The total time was 0.089510 seconds.
