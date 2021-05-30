@@ -29,7 +29,7 @@ int main(int argc, char** argv){
 	a = 0;
 	b = 5;
 //	n = 2048000000;
-	n = 20480000;
+	n = 2048;
 	dest = 0;
 	tag = 0;
 	
