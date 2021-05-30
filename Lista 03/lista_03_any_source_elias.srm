@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --nodes=2		# utiliza um único nó!
-#SBATCH --ntasks-per-node=8
-#SBATCH --ntasks=16		# Numero total de processos MPI
+#SBATCH --ntasks-per-node=4
+#SBATCH --ntasks=8		# Numero total de processos MPI
 #SBATCH -p cpu_dev		# Fila (partition) "econômica" (até 4 nós, 96 cores)
 #SBATCH -J trapeze_rule	# Nome job de sua escolha
 #SBATCH --time=00:02:00	# Limita tempo em 2 minutos
