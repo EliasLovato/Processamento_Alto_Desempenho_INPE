@@ -17,7 +17,7 @@ int main(){
 	
 	a = 0;
 	b = 5;
-     	n = 2048000000;
+     	n = 2048;
 	//	n = 10;
 
 	h = (b - a)/n;
@@ -36,17 +36,18 @@ int main(){
 
 double partial_sum(int a, double h, int n){
 	int i;
-	double sum;
-	static double x[5];
+	double sum, x;
 	
 	double function(double x);
+
+	sum = 0.0;
 		
-#pragma omp parallel for private(i) reduction(+:sum) schedule(static, 4)	
+#pragma omp parallel for private(i, x) reduction(+:sum) schedule(static, 4)	
 	for(i=1; i < n; i++){
 		
-		x[i] = a + i*h;
+		x = a + i*h;
 		
-		sum = sum + function(x[i]);
+		sum = sum + function(x);
 //		printf("The total sum of the thread number %d for %d is: %lf\n", omp_get_thread_num(), i, sum);
 	}
 	
