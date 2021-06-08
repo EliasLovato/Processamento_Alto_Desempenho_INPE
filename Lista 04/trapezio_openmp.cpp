@@ -16,9 +16,8 @@ int main(){
 	t_start = omp_get_wtime();
 	
 	a = 0;
-	b = 5;
+	b = 10;
      	n = 2048000000;
-	//	n = 10;
 
 	h = (b - a)/n;
 	
@@ -59,7 +58,7 @@ double partial_sum(int a, double h, int n){
 double function(double x){
 	double func;
 	
-	func = x*x;
+	func = sin(x) + x*x;
 
 	return func;
 }
