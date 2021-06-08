@@ -10,7 +10,7 @@ int main(){
 
 	double t_start, t_end, t_total;
 
-	double partial_sum(int a, double h, int n);
+	double partial_sum(double a, double h, int n);
 	double function(double x);
 
 	t_start = omp_get_wtime();
@@ -33,7 +33,7 @@ int main(){
 	return 0;
 }
 
-double partial_sum(int a, double h, int n){
+double partial_sum(double a, double h, int n){
 	int i;
 	double sum, x;
 	
