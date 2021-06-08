@@ -1,0 +1,6 @@
+sdumont1250
+sdumont1250
+ldd: /scratch/padinpe/elias.lovato/trapezio_openmp: Arquivo ou diretório não encontrado
+1
+slurmstepd: error: execve(): /scratch/padinpe/elias.lovato/trapezio_openmp: No such file or directory
+srun: error: sdumont1250: task 0: Exited with exit code 2
