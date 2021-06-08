@@ -1,0 +1,16 @@
+sdumont1247
+sdumont1247
+	linux-vdso.so.1 =>  (0x00007ffe219ce000)
+	libstdc++.so.6 => /usr/lib64/libstdc++.so.6 (0x00002abc46488000)
+	libm.so.6 => /usr/lib64/libm.so.6 (0x00002abc4678f000)
+	libiomp5.so => /opt/intel/parallel_studio_xe_2020/compilers_and_libraries_2020.2.254/linux/compiler/lib/intel64_lin/libiomp5.so (0x00002abc46a91000)
+	libgcc_s.so.1 => /usr/lib64/libgcc_s.so.1 (0x00002abc46e97000)
+	libpthread.so.0 => /usr/lib64/libpthread.so.0 (0x00002abc470ad000)
+	libc.so.6 => /usr/lib64/libc.so.6 (0x00002abc472c9000)
+	libdl.so.2 => /usr/lib64/libdl.so.2 (0x00002abc47696000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002abc46264000)
+16
+The area is: 335.172405
+Step: 0.000000
+Sum: 68643308466.092285
+The total time was 4.242634 seconds.
